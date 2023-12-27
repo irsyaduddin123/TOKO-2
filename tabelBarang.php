@@ -140,7 +140,7 @@ $hasil =  mysqli_query($conn,$sql);
         <div class="modal-content">
             <div class="modal-header">
             <h1 class="modal-title fs-5" id="staticBackdropLabel">Ubah Barang</h1>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            <button type="button" class="btn-warning" data-bs-dismiss="modal" aria-label="Close">X</button>
             </div>
             <div class="modal-body">
                 <div id="formBarang">
@@ -167,8 +167,8 @@ $hasil =  mysqli_query($conn,$sql);
                 </div>
             </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-success" data-bs-dismiss="modal">Cancel</button>
-                    <button type="button" class="btn btn-success" data-bs-dismiss="modal" id="delete" >Delete</button>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                    <button type="button" class="btn btn-warning" data-bs-dismiss="modal" id="delete" >Delete</button>
                     <button type="button" class="btn btn-success" data-bs-dismiss="modal" id="update" >Update</button>
                 </div>
         </div>
